@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.mvpproject.LoginPresenter;
+import com.example.mvpproject.presenter.LoginPresenter;
 import com.example.mvpproject.R;
 import com.example.mvpproject.inteface.LoginView;
 import com.example.mvpproject.model.User;

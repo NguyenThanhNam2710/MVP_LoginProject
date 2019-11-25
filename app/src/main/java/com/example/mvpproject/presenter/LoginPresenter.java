@@ -1,4 +1,4 @@
-package com.example.mvpproject;
+package com.example.mvpproject.presenter;
 
 import com.example.mvpproject.inteface.LoginView;
 
@@ -16,6 +16,7 @@ public class LoginPresenter {
             loginView.setErrorPassword();
         } else if (username.equals("admin") && password.equals("admin")) {
             loginView.loginSuccessful();
+            //khi đăng nhập thành công sẽ chờ 2s để chuyển sang trang mới ^^
             Thread thread = new Thread() {
                 @Override
                 public void run() {
